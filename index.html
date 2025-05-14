@@ -1,380 +1,701 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css" />
-
-    <!-- =====BOX ICONS===== -->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-
     <title>Vishwesh Keshri</title>
-</head>
 
-<body>
-    <!--===== HEADER =====-->
-<br><br>
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Vishwesh</a>
-            </div>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">Skills</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#certificate" class="nav__link">Certificate</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
-            </div>
-        </nav>
-    </header>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">
-                    Hi,<br />I'm <span class="home__title-color">Vishwesh</span><br />
-                    Full Stack Web Developer <br />(MERN)
-                </h1>
+  <body>
+    <!-- #MAIN -->
 
-                <a href="#contact" class="button">Contact</a>
-            </div>
+    <main>
+      <!-- #SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/me.png" alt="Richard hanrick" width="100" />
+          </figure>
 
-            <div class="home__social">
-                <a href="https://github.com/Vishu54" class="home__social-icon"><i class="bx bxl-github"></i></a>
-                <a href="https://www.linkedin.com/in/vishwesh-keshri-797669ab/" class="home__social-icon"><i
-                        class="bx bxl-linkedin"></i></a>
-                <a href="https://www.instagram.com/vishu54/?hl=en" class="home__social-icon"><i
-                        class="bx bxl-instagram-alt"></i></a>
-                <a href="https://www.facebook.com/vishwesh.keshri/" class="home__social-icon"><i
-                        class="bx bxl-facebook-square"></i></a>
-            </div>
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Vishwesh Keshri</h1>
 
-            <div class="home__img">
-                <img src="assets/img/perfil.png" alt="" />
-            </div>
-        </section>
+            <p class="title">Software Engineer</p>
+          </div>
 
-        <!--===== ABOUT =====-->
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/about.jpg" alt="" />
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'm Vishwesh</h2>
-                    <p class="about__text">
-                        A hardworking and dedicated team player passionate about
-                        implementing and launching new projects.Ability to translate
-                        business requirements into technical solutions. Looking to start
-                        the career as an entry-level software engineer with a firm driven
-                        by technology.
-                    </p>
-                </div>
-            </div>
-
-            <br /><br /><br />
-            <section class="services-area">
-                <div class="container">
-                    <div class="container services-list">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="services">
-                                    <div class="card-body text-center">
-                                        <p class="card-text text-secondary">
-                                            Currently studying Btech CSE in ITER,Bhubaneswar
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="services">
-                                    <div class="card-body text-center">
-                                        <p class="card-text text-secondary">
-                                            Completed 12th from D.A.V. Kapil Dev Public
-                                            School,Ranchi,JH in 2019
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="services">
-                                    <div class="card-body text-center">
-                                        <p class="card-text text-secondary">
-                                            Completed 10th from D.A.V. Kapil Dev Public
-                                            School,Ranchi,JH in 2017
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <br /><br />
-
-
-        <!--===== SKILLS =====-->
-
-
-
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle text-center">Frontend</h2>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-devicon-plain skills__icon"></i>
-                            <span class="skills__name">HTML/CSS/JS</span>
-                        </div>
-                    </div>
-                    <!-- <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="bx bxl-css3 skills__icon"></i>
-                            <span class="skills__name">CSS3</span>
-                        </div>
-                    </div> -->
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-bootstrap-plain skills__icon"></i>
-                            <span class="skills__name">Bootstrap</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-react-original skills__icon"></i>
-                            <span class="skills__name">ReactJs</span>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 class="skills__subtitle text-center">Backend</h2>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-express-original skills__icon"></i>
-                            <span class="skills__name">ExpressJs</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-nodejs-plain skills__icon"></i>
-                            <span class="skills__name">NodeJs</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-django-plain skills__icon"></i>
-                            <span class="skills__name">Django</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h2 class="skills__subtitle text-center">Database</h2>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-mysql-plain skills__icon"></i>
-                            <span class="skills__name">MySql</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="devicon-mongodb-plain skills__icon"></i>
-                            <span class="skills__name">MongoDb</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="bx bxs-data skills__icon"></i>
-                            <span class="skills__name">SQLite</span>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- <div class="row">
-
-
-        </div> -->
-
-
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-sm">
-                    <div>
-                        <h2 class="skills__subtitle text-center">Languages</h2>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-cplusplus-plain skills__icon"></i>
-                                <span class="skills__name">C/C++</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-java-plain skills__icon"></i>
-                                <span class="skills__name">Java</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-python-plain skills__icon"></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div>
-                        <h2 class="skills__subtitle text-center">TOOLS</h2>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-git-plain skills__icon"></i>
-                                <span class="skills__name">Git/Github</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="bx bxs-terminal skills__icon"></i>
-                                <span class="skills__name">Linux/Terminal</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-visualstudio-plain skills__icon"></i>
-                                <span class="skills__name">VS Code</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <!--===== CETIFICATE =====-->
-        <br id="certificate" /><br />
-        <br />
-        <section class="services-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="section-title">Certificate</h1>
-                    </div>
-                </div>
-                <div class="container services-list">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="card-body text-center">
-                                    <p class="card-text text-secondary">
-                                        Mastering Data Structures & Algorithms using C and C++
-                                        (Udemy)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="card-body text-center">
-                                    <p class="card-text text-secondary">
-                                        2020 Complete Python Bootcamp: From Zero to Hero in Python
-                                        (Udemy)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="card-body text-center">
-                                    <p class="card-text text-secondary">
-                                        Introduction To Cybersecurity (Cisco)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="card-body text-center">
-                                    <p class="card-text text-secondary">SQL (SoloLearn)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br />
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <div class="about__container bd-grid">
-                <form action="https://formspree.io/f/xgepbzga" method="POST" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input" name="name" />
-                    <input type="mail" placeholder="Email" class="contact__input" name="_replyto" />
-                    <textarea placeholder="Your Message" id="" cols="0" rows="10" class="contact__input"
-                        name="message"></textarea>
-                    <input type="submit" value="Send" class="contact__button button" />
-                </form>
-                <div class="contact__container bd-grid contact_id">
-                    <p class="bx bx-mail-send about__text">Ping me at:</p>
-                    <br />
-                    <p class="about__text">vishu54@hotmail.com</p>
-                    <br />
-                    <p class="bx bx-phone about__text">Phone</p>
-                    <br />
-                    <p class="about__text">9471373044</p>
-                    <br />
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:vishweshkeshri@gmail.com" class="contact-link">vishweshkeshri@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919471373044" class="contact-link">+919471373044</a>
+              </div>
+            </li>
+
+            <!-- <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">June 23, 1982</time>
+              </div>
+            </li> -->
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bangalore, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="www.linkedin.com/in/vishwesh-keshri" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Vishu54" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/vishu54/?hl=en" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- main-content -->
+
+      <div class="main-content">
+        <!-- #NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Education</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #ABOUT -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+          <section class="about-text">
+            <p>
+              I'm a Computer Science Engineering graduate with 3 years of hands-on experience in building robust and scalable software for the capital markets and fintech domain. I specialize in
+              designing and developing complex backend systems, with a strong focus on performance, reliability, and clean architecture.
+            </p>
+            <p>
+              In my current role, I built a high-performance API Gateway, developed a job queueing system using RabbitMQ and Prefect, and deployed the entire microservices stack on Cloud using
+              Kubernetes Service. I’ve also led projects end-to-end — from system design, coding, and testing, to deployment and monitoring.
+            </p>
+            <p>
+              Beyond backend, I have hands-on experience with PostgreSQL, MySQL, Redis/KeyDB for caching, Docker/K8s for container orchestration, and CI/CD workflows. I'm confident in my ability to
+              design clean APIs, write optimized queries, and manage concurrent workloads — all of which align closely with the backend engineering responsibilities.
+            </p>
+          </section>
+
+          <!-- service -->
+          <!-- <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40" />
                 </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">Professional development of applications for iOS and Android.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">I make high-quality photos of any category at a professional level.</p>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <!-- Skills -->
+          <section class="service">
+            <h3 class="h3 service-title">Skills</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/code.svg" alt="design icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Languages</h4>
+                  <img src="https://skillicons.dev/icons?i=py,go,nodejs,java,cpp" />
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/braces.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Framework</h4>
+                  <div style="display: flex; gap: 10px; align-items: center">
+                    <img src="https://skillicons.dev/icons?i=fastapi,django,express" />
+                    <img src="./assets/images/fiber.svg" style="width: 53px; height: 48px" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/database.svg" alt="mobile app icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Databases</h4>
+                  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis" />
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/repeat-2.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Orchestration</h4>
+                  <div style="display: flex; gap: 10px; align-items: center">
+                    <img src="./assets/images/prefect.svg" style="width: 53px; height: 40px" />
+                    <img src="./assets/images/apache-airflow.svg" style="width: 53px; height: 40px" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/mail.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Message Broker</h4>
+                  <div>
+                    <img src="https://skillicons.dev/icons?i=rabbitmq,kafka" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/workflow.svg" alt="camera icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Miscellaneous</h4>
+                  <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,postman" />
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/cloud.svg" alt="camera icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud</h4>
+                  <img src="https://skillicons.dev/icons?i=aws,azure" />
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- testimonials modal -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!-- #EXPERIENCE -->
+        <article class="experience" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
             </div>
-        </section>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer | Capital Quant Solutions</h4>
+                <span>June 22 - Present</span>
+                <ul class="timeline-text">
+                  <li class="timeline-text">
+                    Created a high-performance API Gateway with Golang Fiber, facilitating efficient routing, communication,rate limiting and load balancing for a micro service architecture.
+                  </li>
+                  <l1>Led the development of a new product, collaborating with internal teams to handle all application modules.</l1>
+                  <l1>Managed the entire product development life cycle using Agile methodologies (Scrum) and Jira, leading a team of developers to deliver high-quality solutions.</l1>
+                  <li>Enhanced internal library performance by 30% through effective bug resolution and code optimization. Enhanced performance by integrating KeyDB caching.</li>
+                  <li>Built a reusable job queue library using RabbitMQ & Prefect for scalable background processing with parallel execution.</li>
+                  <l1>Deployed it on Azure AKS, used Azure PostgreSQL for Database, Azure Storage Service for storage</l1>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer Intern | Capital Quant Solutions</h4>
+                <span>Aug 21 - May 2022</span>
+                <ul class="timeline-text">
+                  <li class="timeline-text">
+                    Developed a data extraction module utilizing Python for PDF processing. This module leveraged Optical Character Recognition (OCR), Natural Language Processing (NLP), and Regular
+                    Expressions (Regex) to achieve accurate and efficient data retrieval.
+                  </li>
+                  <l1>Enhanced authentication security in a Spring Boot application by implementing role-based access control</l1>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <!-- <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!-- #PORTFOLIO -->
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #Education -->
+        <article class="education" data-page="education">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Institute of Technical Education & Research</h4>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">
+                  B. Tech, Computer Science | CGPA: 8.23 <br />
+                  Bhubaneswar, Odisha
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">D.A.V. Kapil Dev Public School</h4>
+
+                <span>2017 — 2019</span>
+
+                <p class="timeline-text">
+                  12th (Computer Science) (CBSE) 2019 | Percentage: 74.5% <br />
+                  Ranchi, Jharkhand
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">D.A.V. Kapil Dev Public School</h4>
+
+                <span>2005 — 2017</span>
+
+                <p class="timeline-text">
+                  10th (CBSE) 2017 | CGPA: 9.6 <br />
+                  Ranchi, Jharkhand
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!-- #CONTACT -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.56659917158!2d77.46613003347974!3d12.954280230661228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1747151344437!5m2!1sen!2sin"
+                width="500"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="https://formspree.io/f/xgepbzga" method="POST" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input />
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
     </main>
 
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <div class="footer__social">
-            <a href="https://www.facebook.com/vishwesh.keshri/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/vishu54/?hl=en" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/vishwesh-keshri-797669ab/" class="footer__icon"><i
-                    class="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/Vishu54" class="footer__icon"><i class="bx bxl-github"></i></a>
-        </div>
-        <br />
-    </footer>
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
 
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-</body>
-
+    <!--  ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
